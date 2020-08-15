@@ -1,0 +1,21 @@
+{
+    "env": { 
+        "es6": true,
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "extends": ["eslint:recommended", "plugin:node/recommended", "plugin:prettier/recommended"],
+    "rules": {
+        "prettier/prettier": ["error", {
+            "printWidth": 120,
+            "tabWidth": 4,
+            "semi": true,
+            "singleQuote": true,
+            "arrowParens": "always",
+            "trailingComma": "all"
+        }],
+        "single": true
+    }
+}

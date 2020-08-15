@@ -1,0 +1,46 @@
+{
+    "name": "nodegraphqlapp",
+    "version": "1.0.0",
+    "description": "Example of GraphQL on NodeJS (express) server",
+    "main": "app.js",
+    "engines": {
+        "node": ">=12.16.1"
+    },
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --ext js",
+        "lint:fix": "eslint . --fix --ext js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DrobenyukA/NodeGraphQLApp.git"
+    },
+    "keywords": [
+        "NodeJS",
+        "GraphQL",
+        "Express"
+    ],
+    "author": "Drobenyuk.A",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DrobenyukA/NodeGraphQLApp/issues"
+    },
+    "homepage": "https://github.com/DrobenyukA/NodeGraphQLApp#readme",
+    "devDependencies": {
+        "eslint": "^5.15.1",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-prettier": "^3.0.1",
+        "nodemon": "^1.18.10",
+        "prettier": "1.16.4"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "dotenv-safe": "^6.1.0",
+        "express": "^4.16.4",
+        "lodash": "^4.17.19",
+        "mongodb": "^3.2.5",
+        "mongoose": "^5.5.12"
+    }
+}
